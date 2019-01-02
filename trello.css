@@ -1,0 +1,157 @@
+div.trello-sprinter {
+  margin: 0; }
+  div.trello-sprinter h2 {
+    text-align: center;
+    padding: 0.25em 0;
+    background: #026AA7;
+    color: white;
+    font-size: 1em;
+    margin: 0; }
+  div.trello-sprinter p.trello-status {
+    text-align: center;
+    padding: 0.25em 0;
+    background: #026AA7;
+    color: white; }
+  div.trello-sprinter p.trello-msg {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+    padding: 0.25em 0;
+    background: #026AA7;
+    color: white; }
+  div.trello-sprinter p.center {
+    text-align: center; }
+  div.trello-sprinter div.trello-view {
+    background: white;
+    color: black; }
+    div.trello-sprinter div.trello-view h3 {
+      border-top: 2px solid black;
+      margin: 0;
+      padding: 0.25em 0 0.25em 20px; }
+      div.trello-sprinter div.trello-view h3 span.date {
+        font-weight: normal;
+        font-style: normal;
+        font-size: 0.7em;
+        float: right;
+        padding-top: 0.25em; }
+    div.trello-sprinter div.trello-view p.trello-completed-header {
+      text-align: center;
+      font-weight: bold;
+      background: black;
+      color: deepskyblue; }
+  div.trello-sprinter .trello-plus {
+    background-image: url("img/plus.png"); }
+  div.trello-sprinter .trello-minus {
+    background-image: url("img/minus.png"); }
+  div.trello-sprinter .trello-plus, div.trello-sprinter .trello-minus {
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px 16px;
+    cursor: pointer; }
+  div.trello-sprinter div.trello-expand {
+    position: relative;
+    display: none;
+    overflow: auto;
+    background: #f0f0f0;
+    padding: 0.25em;
+    margin-bottom: 6pt;
+    border: 1pt solid gray;
+    word-wrap: normal; }
+  div.trello-sprinter div.trello-expand, div.trello-sprinter .trello-errors {
+    -moz-box-shadow: 6pt 6px 10pt #888;
+    -webkit-box-shadow: 6pt 6px 10pt #888;
+    box-shadow: 6pt 6px 10pt #888; }
+  div.trello-sprinter p.trello-count {
+    margin: 0 0 1em 0;
+    text-align: center;
+    font-size: 0.85em; }
+  div.trello-sprinter div.trello-card {
+    padding-left: 2em;
+    padding-right: 2em; }
+    div.trello-sprinter div.trello-card h4 {
+      background-color: #81d0fd;
+      margin: 0.5em 0 0 0;
+      padding: 0 0.25em; }
+    div.trello-sprinter div.trello-card h4 span.trello-date {
+      font-weight: normal;
+      font-size: 0.9em;
+      float: right;
+      padding-top: 0.25em; }
+    div.trello-sprinter div.trello-card .trello-card-members {
+      margin: 0 0.25em;
+      font-size: 0.85em;
+      font-style: italic; }
+  div.trello-sprinter div.trello-description {
+    margin: 0.5em 1em; }
+    div.trello-sprinter div.trello-description p {
+      margin: 0 0 0.25em 0;
+      font-size: 0.9em; }
+  div.trello-sprinter div.trello-comments {
+    margin: 0 2em; }
+    div.trello-sprinter div.trello-comments h5 {
+      margin: 0;
+      padding: 0 0.25em;
+      background-color: #ccc;
+      font-size: 0.8em;
+      font-weight: normal;
+      font-style: italic; }
+      div.trello-sprinter div.trello-comments h5 span.trello-date {
+        font-weight: normal;
+        font-style: normal;
+        float: right; }
+    div.trello-sprinter div.trello-comments p {
+      margin: 0 0.25em;
+      font-size: 0.9em; }
+  div.trello-sprinter div.trello-updates {
+    margin: 1em 2em; }
+    div.trello-sprinter div.trello-updates p {
+      margin: 0;
+      padding: 0 0.25em;
+      font-size: 0.8em;
+      font-style: italic; }
+      div.trello-sprinter div.trello-updates p span.trello-date {
+        font-weight: normal;
+        font-style: normal;
+        float: right; }
+      div.trello-sprinter div.trello-updates p span.list {
+        font-style: normal;
+        font-weight: bold; }
+  div.trello-sprinter div.trello-sprints {
+    background: white;
+    color: black; }
+    div.trello-sprinter div.trello-sprints div.trello-errors {
+      background: #c41425;
+      color: white; }
+    div.trello-sprinter div.trello-sprints div.trello-warnings {
+      background: #ff80df;
+      color: black; }
+    div.trello-sprinter div.trello-sprints div.trello-members {
+      background: #f0f0f0;
+      color: black; }
+      div.trello-sprinter div.trello-sprints div.trello-members div.trello-member {
+        margin-bottom: 1em; }
+    div.trello-sprinter div.trello-sprints div.trello-errors, div.trello-sprinter div.trello-sprints div.trello-warnings, div.trello-sprinter div.trello-sprints div.trello-members {
+      position: relative;
+      overflow: auto;
+      padding: 0 1em 1em 1em;
+      margin: 1em 3em 6pt 3em;
+      border: 1pt solid gray;
+      word-wrap: normal;
+      font-size: 0.9em; }
+      div.trello-sprinter div.trello-sprints div.trello-errors p, div.trello-sprinter div.trello-sprints div.trello-warnings p, div.trello-sprinter div.trello-sprints div.trello-members p {
+        font-size: 1.1em;
+        margin: 0; }
+      div.trello-sprinter div.trello-sprints div.trello-errors span.trello-code, div.trello-sprinter div.trello-sprints div.trello-warnings span.trello-code, div.trello-sprinter div.trello-sprints div.trello-members span.trello-code {
+        font-weight: bold; }
+      div.trello-sprinter div.trello-sprints div.trello-errors h3, div.trello-sprinter div.trello-sprints div.trello-errors h4, div.trello-sprinter div.trello-sprints div.trello-warnings h3, div.trello-sprinter div.trello-sprints div.trello-warnings h4, div.trello-sprinter div.trello-sprints div.trello-members h3, div.trello-sprinter div.trello-sprints div.trello-members h4 {
+        margin: 0;
+        padding: 0.25em 0;
+        text-align: center; }
+      div.trello-sprinter div.trello-sprints div.trello-errors div.trello-info, div.trello-sprinter div.trello-sprints div.trello-warnings div.trello-info, div.trello-sprinter div.trello-sprints div.trello-members div.trello-info {
+        border-top: 1px solid black; }
+        div.trello-sprinter div.trello-sprints div.trello-errors div.trello-info p, div.trello-sprinter div.trello-sprints div.trello-warnings div.trello-info p, div.trello-sprinter div.trello-sprints div.trello-members div.trello-info p {
+          margin: 1em 0; }
+  div.trello-sprinter div.trello-sprint-table {
+    overflow: auto; }
+
+/*# sourceMappingURL=trello.css.map */
