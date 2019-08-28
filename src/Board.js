@@ -32,7 +32,7 @@ export const Board = function(data) {
 	}
 }
 
-Board.fetch = function(trello, name, msg, success, failure) {
+Board.fetch = function(trello, name, options, msg, success, failure) {
 	msg.innerText = 'Fetching board ' + name;
 
 	/// Keeps track of how many open async calls there are right now
@@ -139,14 +139,24 @@ Board.fetch = function(trello, name, msg, success, failure) {
 		trello.get("/batch?urls=" + urls,
 			function(data) {
 				// Loop over the result for each provided URL
-				for(var i=0; i<data.length && i<board.lists.length; i++) {
-					var list = board.lists[i];
-					var cardsData = data[i][200];
+				for(let i=0; i<data.length && i<board.lists.length; i++) {
+					const list = board.lists[i];
+					const cardsData = data[i][200];
 
 					cardsData.forEach(function(cardData) {
 						if(!cardData.closed) {
-							var card = new Card(board, list, cardData);
-							list.add_card(card);
+							const card = new Card(board, list, cardData);
+							console.log(card);
+							if(options.after !== null) {
+								if(card.created.getTime() / 1000 > options.after) {
+									list.add_card(card);
+								}
+							} else {
+								list.add_card(card);
+							}
+
+
+
 						}
 					});
 				}
@@ -171,8 +181,6 @@ Board.fetch = function(trello, name, msg, success, failure) {
 							if(card !== null) {
 								var comment = new Comment(board, card, action);
 								card.comments.push(comment);
-							} else {
-								console.log("card not found");
 							}
 							//console.log(action);
 						} else if(action.type === 'updateCard') {

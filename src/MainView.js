@@ -35,7 +35,7 @@ export const MainView = function(element, trello, options) {
 	let pMsg = Util.createElement('p', 'trello-msg');
 	div.appendChild(pMsg);
 
-	Board.fetch(trello, options.board, pMsg, (board) => {
+	Board.fetch(trello, options.board, options, pMsg, (board) => {
 		// Success
 		pStatus.innerText = 'Trello Board: ' + board.name;
 		pMsg.parentNode.removeChild(pMsg);
