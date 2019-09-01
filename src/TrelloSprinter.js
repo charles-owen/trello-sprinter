@@ -6,9 +6,9 @@ import {TrelloConnect} from 'trello-connect';
 
 export const TrelloSprinter = function(userOptions) {
 	// Default and supplied options
-	var opts = Util.merge(options, userOptions);
+	const opts = Util.merge(options, userOptions);
 
-	var trello = new TrelloConnect(opts);
+	const trello = new TrelloConnect(opts);
 
 	Util.ready(() => {
 		let elements;

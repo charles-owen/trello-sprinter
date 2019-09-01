@@ -14,6 +14,9 @@ export const options = {
 	// Name of the board we are fetching
 	board: '',
 
+	/** Optional: Only consider meetings after this time (Unix time) */
+	after: null,
+
 	views: {
 		'board': {},
 		'sprint': {}

@@ -13,11 +13,8 @@ export const BoardView = function(div, board) {
 	    div.appendChild(view);
 
 	    for(let list of board.lists) {
-
+			presentList(view, list);
 	    }
-	    board.lists.forEach((list) => {
-		    presentList(view, list);
-	    });
     }
 
     const presentList = (view, list) => {
