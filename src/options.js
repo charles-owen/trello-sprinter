@@ -22,6 +22,11 @@ export const options = {
 		'sprint': {}
 	},
 
-	name: 'TrelloSprinter'
+	name: 'TrelloSprinter',
+
+	// Default cards
+	cards: ['Design', 'Risks', 'Meetings',
+		'To Do', 'This Sprint Active',
+		'This Sprint Completed', 'Completed']
 };
 

@@ -8,13 +8,14 @@ import {Card} from './Card';
 import {Update} from './Update';
 import {Comment} from './Comment';
 
-export const Board = function(data) {
+export const Board = function(data, options) {
 
 	this.data = data;
 	this.id = data.id;
 	this.name = data.name;
 	this.lists = [];
 	this.members = {};
+	this.options = options;
 
 	this.find_card  = function(id) {
 		for(var i=0; i<this.lists.length; i++) {
@@ -50,7 +51,7 @@ Board.fetch = function(trello, name, options, msg, success, failure) {
 					// We have found the board (if not closed)
 					if(!boardData.closed) {
 						// Create the board object
-						board = new Board(boardData);
+						board = new Board(boardData, options);
 
 						// Fetch the membership
 						fetch_membership(board);
@@ -146,7 +147,6 @@ Board.fetch = function(trello, name, options, msg, success, failure) {
 					cardsData.forEach(function(cardData) {
 						if(!cardData.closed) {
 							const card = new Card(board, list, cardData);
-							console.log(card);
 							if(options.after !== null) {
 								if(card.created.getTime() / 1000 > options.after) {
 									list.add_card(card);

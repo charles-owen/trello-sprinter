@@ -137,9 +137,7 @@ Sprints.prototype.find_lists = function() {
  * Ensure lists are in the right order
  */
 Sprints.prototype.order_test = function() {
-    var order = ['Design', 'Risks', 'Meetings',
-        'To Do', 'This Sprint Active',
-        'This Sprint Completed', 'Completed'];
+    const order = this.board.options.cards;
 
     for(var i=0; i<order.length; i++) {
         if(this.board.lists[i].name.toLowerCase() !== order[i].toLowerCase()) {
@@ -346,10 +344,21 @@ Sprints.prototype.warning = function(code, msg) {
 
     switch(code) {
         case 'w001':
-            this.warnings.push({code: code, msg: "Your lists are not in the correct order. " +
-            "The exact order should be: Design, Risks, Meetings, To Do, " +
-            "This Sprint Active, This Sprint Completed, " +
-                "Completed"});
+            var msg = "Your lists are not in the correct order. " +
+                "The exact order should be:";
+
+            let first = true;
+            for(const card of this.board.options.cards) {
+                if(first) {
+                    first = false;
+                } else {
+                    msg += ',';
+                }
+
+                msg += ' ' + card;
+            }
+
+            this.warnings.push({code: code, msg: msg});
             break;
 
     }
