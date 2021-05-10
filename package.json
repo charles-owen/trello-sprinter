@@ -20,6 +20,7 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.13",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/plugin-transform-runtime": "^7.12.15",
     "@babel/preset-env": "^7.12.13",
     "@babel/runtime": "7.12.13",
@@ -37,8 +38,7 @@
     "webpack": "^5.21.1",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "4.0.0-beta.0",
-    "webpack-merge": "^5.7.3",
-    "@babel/plugin-syntax-dynamic-import": "^7.8.3"
+    "webpack-merge": "^5.7.3"
   },
   "dependencies": {
     "trello-connect": "~2.0.4"
