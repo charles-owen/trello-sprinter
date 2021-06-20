@@ -1,6 +1,6 @@
 {
   "name": "trello-sprinter",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Provides summarizations of sprint activity in a Trello project",
   "main": "dist/trello-sprinter.min.js",
   "module": "index.js",
