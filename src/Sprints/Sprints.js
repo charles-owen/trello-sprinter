@@ -207,12 +207,23 @@ Sprints.prototype.sort_completed = function() {
 
     completed.forEach(function(completed) {
         //
+        // Was this card ever in the risk list?
+        //
+        let risk = false;
+        for(let update of completed.updates) {
+            if(update.listBefore === 'Risk') {
+                risk = true;
+            }
+        }
+
+        //
         // We ignore "risk" cards
         //
-        if(completed.name.toLowerCase().indexOf("risk") === -1) {
-            var date = completed.final_time();
-            for(var i=0; i<that.sprints.length;  i++) {
-                var sprint = that.sprints[i];
+        if(!risk) {
+            const date = completed.final_time();
+            let i=0;
+            for( ; i<that.sprints.length;  i++) {
+                const sprint = that.sprints[i];
                 if(date <= sprint.end_time()) {
                     break;
                 }
@@ -222,7 +233,7 @@ Sprints.prototype.sort_completed = function() {
                 i = that.sprints.length - 1;
             }
 
-            var sprint = that.sprints[i];
+            const sprint = that.sprints[i];
             sprint.completed.push(completed);
         }
 
@@ -234,15 +245,15 @@ Sprints.prototype.completed_statistics = function() {
     var reviews_total = 0;
 
     for(var i=0; i<this.sprints.length; i++) {
-        var sprint = this.sprints[i];
+        const sprint = this.sprints[i];
         completed_count += sprint.completed.length;
 
-        for(var j=0; j<sprint.completed.length; j++) {
-            var completed = sprint.completed[j];
+        for(let j=0; j<sprint.completed.length; j++) {
+            const completed = sprint.completed[j];
 
             if(completed.members.length === 1) {
-                var id = completed.members[0];
-                var member = this.find_member(id);
+                const id = completed.members[0];
+                const member = this.find_member(id);
                 if(member !== null) {
                     member.completed_count++;
                 }
@@ -257,8 +268,8 @@ Sprints.prototype.completed_statistics = function() {
             // Are they any reviews?
             if(completed.comments.length > 0) {
                 reviews_total++;
-                var id = completed.comments[0].member;
-                var member = this.find_member(id);
+                const id = completed.comments[0].member;
+                const member = this.find_member(id);
                 if(member !== null) {
                     member.reviews_count++;
                 }
