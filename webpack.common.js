@@ -33,13 +33,8 @@ module.exports = {
                 }
             },
             {
-                test: /\.(jpe?g|png|gif)$/i,
-                loader:"url-loader",
-                options:{
-                    limit: 8000,
-                    name:'[name].[ext]',
-                    outputPath:'img/'
-                }
+                test: /\.png/,
+                type: 'asset/inline'
             },
             {
                 test: /\.scss$/,
