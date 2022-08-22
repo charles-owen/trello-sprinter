@@ -7,7 +7,7 @@
 		exports["TrelloSprinter"] = factory();
 	else
 		root["TrelloSprinter"] = factory();
-})(self, function() {
+})(self, () => {
 return /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
@@ -20,8 +20,8 @@ return /******/ (() => { // webpackBootstrap
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "TrelloSprinter": () => (/* reexport safe */ _src_TrelloSprinter__WEBPACK_IMPORTED_MODULE_1__.TrelloSprinter)
+/* harmony export */   "TrelloSprinter": () => (/* reexport safe */ _src_TrelloSprinter__WEBPACK_IMPORTED_MODULE_1__.TrelloSprinter),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _trello_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./trello.scss */ "./trello.scss");
 /* harmony import */ var _src_TrelloSprinter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/TrelloSprinter */ "./src/TrelloSprinter.js");
@@ -1763,7 +1763,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Util__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Util */ "./src/Util.js");
 /* harmony import */ var _DisconnectedView__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DisconnectedView */ "./src/DisconnectedView.js");
 /* harmony import */ var _MainView__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MainView */ "./src/MainView.js");
-/* harmony import */ var trello_connect__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! trello-connect */ "../../.yarn/cache/trello-connect-npm-2.0.6-7cf0ff6bf1-a032890684.zip/node_modules/trello-connect/index.js");
+/* harmony import */ var trello_connect__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! trello-connect */ "../../node_modules/trello-connect/index.js");
 
 
 
@@ -2034,31 +2034,31 @@ var options = {
 
 /***/ }),
 
-/***/ "../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/cjs.js!../../.yarn/__virtual__/resolve-url-loader-virtual-12f3d4a39a/0/cache/resolve-url-loader-npm-4.0.0-2a9c18d86b-8e5bcf9786.zip/node_modules/resolve-url-loader/index.js!../../.yarn/__virtual__/sass-loader-virtual-86a7f7e3a6/0/cache/sass-loader-npm-12.4.0-3d3847fd35-0f7ca3633e.zip/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/cjs.js!../../.yarn/__virtual__/resolve-url-loader-virtual-12f3d4a39a/0/cache/resolve-url-loader-npm-4.0.0-2a9c18d86b-8e5bcf9786.zip/node_modules/resolve-url-loader/index.js!../../.yarn/__virtual__/sass-loader-virtual-86a7f7e3a6/0/cache/sass-loader-npm-12.4.0-3d3847fd35-0f7ca3633e.zip/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "../../node_modules/css-loader/dist/cjs.js!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss":
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** ../../node_modules/css-loader/dist/cjs.js!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss ***!
+  \*************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/runtime/sourceMaps.js */ "../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/runtime/sourceMaps.js");
-/* harmony import */ var _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/runtime/api.js */ "../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/runtime/getUrl.js */ "../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/runtime/getUrl.js");
-/* harmony import */ var _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "../../node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "../../node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "../../node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./img/plus.png */ "./img/plus.png"), __webpack_require__.b);
 var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./img/minus.png */ "./img/minus.png"), __webpack_require__.b);
-var ___CSS_LOADER_EXPORT___ = _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
-var ___CSS_LOADER_URL_REPLACEMENT_1___ = _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "div.trello-sprinter {\n  margin: 0;\n}\ndiv.trello-sprinter h2 {\n  text-align: center;\n  padding: 0.25em 0;\n  background: #026AA7;\n  color: white;\n  font-size: 1em;\n  margin: 0;\n}\ndiv.trello-sprinter p.trello-status {\n  text-align: center;\n  padding: 0.25em 0;\n  background: #026AA7;\n  color: white;\n}\ndiv.trello-sprinter p.trello-msg {\n  text-align: center;\n  font-style: italic;\n  font-size: 0.9em;\n  padding: 0.25em 0;\n  background: #026AA7;\n  color: white;\n}\ndiv.trello-sprinter p.center {\n  text-align: center;\n}\ndiv.trello-sprinter div.trello-view {\n  background: white;\n  color: black;\n}\ndiv.trello-sprinter div.trello-view h3 {\n  border-top: 2px solid black;\n  margin: 0;\n  padding: 0.25em 0 0.25em 20px;\n}\ndiv.trello-sprinter div.trello-view h3 span.date {\n  font-weight: normal;\n  font-style: normal;\n  font-size: 0.7em;\n  float: right;\n  padding-top: 0.25em;\n}\ndiv.trello-sprinter div.trello-view p.trello-completed-header {\n  text-align: center;\n  font-weight: bold;\n  background: black;\n  color: deepskyblue;\n}\ndiv.trello-sprinter .trello-plus {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\ndiv.trello-sprinter .trello-minus {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\ndiv.trello-sprinter .trello-plus, div.trello-sprinter .trello-minus {\n  background-repeat: no-repeat;\n  background-position: left center;\n  background-size: 16px 16px;\n  cursor: pointer;\n}\ndiv.trello-sprinter div.trello-expand {\n  position: relative;\n  display: none;\n  overflow: auto;\n  background: #f0f0f0;\n  padding: 0.25em;\n  margin-bottom: 6pt;\n  border: 1pt solid gray;\n  word-wrap: normal;\n}\ndiv.trello-sprinter div.trello-expand, div.trello-sprinter .trello-errors {\n  -moz-box-shadow: 6pt 6px 10pt #888;\n  -webkit-box-shadow: 6pt 6px 10pt #888;\n  box-shadow: 6pt 6px 10pt #888;\n}\ndiv.trello-sprinter p.trello-count {\n  margin: 0 0 1em 0;\n  text-align: center;\n  font-size: 0.85em;\n}\ndiv.trello-sprinter div.trello-card {\n  padding-left: 2em;\n  padding-right: 2em;\n}\ndiv.trello-sprinter div.trello-card h4 {\n  background-color: #81d0fd;\n  margin: 0.5em 0 0 0;\n  padding: 0 0.25em;\n}\ndiv.trello-sprinter div.trello-card h4 span.trello-date {\n  font-weight: normal;\n  font-size: 0.9em;\n  float: right;\n  padding-top: 0.25em;\n}\ndiv.trello-sprinter div.trello-card .trello-card-members {\n  margin: 0 0.25em;\n  font-size: 0.85em;\n  font-style: italic;\n}\ndiv.trello-sprinter div.trello-description {\n  margin: 0.5em 1em;\n}\ndiv.trello-sprinter div.trello-description p {\n  margin: 0 0 0.25em 0;\n  font-size: 0.9em;\n}\ndiv.trello-sprinter div.trello-comments {\n  margin: 0 2em;\n}\ndiv.trello-sprinter div.trello-comments h5 {\n  margin: 0;\n  padding: 0 0.25em;\n  background-color: #ccc;\n  font-size: 0.8em;\n  font-weight: normal;\n  font-style: italic;\n}\ndiv.trello-sprinter div.trello-comments h5 span.trello-date {\n  font-weight: normal;\n  font-style: normal;\n  float: right;\n}\ndiv.trello-sprinter div.trello-comments p {\n  margin: 0 0.25em;\n  font-size: 0.9em;\n}\ndiv.trello-sprinter div.trello-updates {\n  margin: 1em 2em;\n}\ndiv.trello-sprinter div.trello-updates p {\n  margin: 0;\n  padding: 0 0.25em;\n  font-size: 0.8em;\n  font-style: italic;\n}\ndiv.trello-sprinter div.trello-updates p span.trello-date {\n  font-weight: normal;\n  font-style: normal;\n  float: right;\n}\ndiv.trello-sprinter div.trello-updates p span.list {\n  font-style: normal;\n  font-weight: bold;\n}\ndiv.trello-sprinter div.trello-sprints {\n  background: white;\n  color: black;\n}\ndiv.trello-sprinter div.trello-sprints div.trello-errors {\n  background: #c41425;\n  color: white;\n}\ndiv.trello-sprinter div.trello-sprints div.trello-warnings {\n  background: #ff80df;\n  color: black;\n}\ndiv.trello-sprinter div.trello-sprints div.trello-members {\n  background: #f0f0f0;\n  color: black;\n}\ndiv.trello-sprinter div.trello-sprints div.trello-members div.trello-member {\n  margin-bottom: 1em;\n}\ndiv.trello-sprinter div.trello-sprints div.trello-errors, div.trello-sprinter div.trello-sprints div.trello-warnings, div.trello-sprinter div.trello-sprints div.trello-members {\n  position: relative;\n  overflow: auto;\n  padding: 0 1em 1em 1em;\n  margin: 1em 3em 6pt 3em;\n  border: 1pt solid gray;\n  word-wrap: normal;\n  font-size: 0.9em;\n}\ndiv.trello-sprinter div.trello-sprints div.trello-errors p, div.trello-sprinter div.trello-sprints div.trello-warnings p, div.trello-sprinter div.trello-sprints div.trello-members p {\n  font-size: 1.1em;\n  margin: 0;\n}\ndiv.trello-sprinter div.trello-sprints div.trello-errors span.trello-code, div.trello-sprinter div.trello-sprints div.trello-warnings span.trello-code, div.trello-sprinter div.trello-sprints div.trello-members span.trello-code {\n  font-weight: bold;\n}\ndiv.trello-sprinter div.trello-sprints div.trello-errors h3, div.trello-sprinter div.trello-sprints div.trello-errors h4, div.trello-sprinter div.trello-sprints div.trello-warnings h3, div.trello-sprinter div.trello-sprints div.trello-warnings h4, div.trello-sprinter div.trello-sprints div.trello-members h3, div.trello-sprinter div.trello-sprints div.trello-members h4 {\n  margin: 0;\n  padding: 0.25em 0;\n  text-align: center;\n}\ndiv.trello-sprinter div.trello-sprints div.trello-errors div.trello-info, div.trello-sprinter div.trello-sprints div.trello-warnings div.trello-info, div.trello-sprinter div.trello-sprints div.trello-members div.trello-info {\n  border-top: 1px solid black;\n}\ndiv.trello-sprinter div.trello-sprints div.trello-errors div.trello-info p, div.trello-sprinter div.trello-sprints div.trello-warnings div.trello-info p, div.trello-sprinter div.trello-sprints div.trello-members div.trello-info p {\n  margin: 1em 0;\n}\ndiv.trello-sprinter div.trello-sprint-table {\n  overflow: auto;\n}", "",{"version":3,"sources":["webpack://./trello.scss"],"names":[],"mappings":"AAMA;EACE,SAAA;AALF;AAOE;EACE,kBAAA;EACA,iBAAA;EACA,mBAZU;EAaV,YAAA;EACA,cAAA;EACA,SAAA;AALJ;AAQE;EACE,kBAAA;EACA,iBAAA;EACA,mBArBU;EAsBV,YAAA;AANJ;AASE;EACE,kBAAA;EACA,kBAAA;EACA,gBAAA;EACA,iBAAA;EACA,mBA9BU;EA+BV,YAAA;AAPJ;AAUE;EACE,kBAAA;AARJ;AAWE;EACE,iBAAA;EACA,YAAA;AATJ;AAWI;EACE,2BAAA;EACA,SAAA;EACA,6BAAA;AATN;AAWM;EACE,mBAAA;EACA,kBAAA;EACA,gBAAA;EACA,YAAA;EACA,mBAAA;AATR;AAaI;EACE,kBAAA;EACA,iBAAA;EACA,iBAAA;EACA,kBAAA;AAXN;AAeE;EACE,yDAAA;AAbJ;AAgBE;EACE,yDAAA;AAdJ;AAiBE;EACE,4BAAA;EACA,gCAAA;EACA,0BAAA;EACA,eAAA;AAfJ;AAkBE;EACE,kBAAA;EACA,aAAA;EACA,cAAA;EACA,mBAAA;EACA,eAAA;EACA,kBAAA;EACA,sBAAA;EACA,iBAAA;AAhBJ;AAoBE;EACE,kCAAA;EACA,qCAAA;EACA,6BAAA;AAlBJ;AAqBE;EACE,iBAAA;EACA,kBAAA;EACA,iBAAA;AAnBJ;AAuBE;EACE,iBAAA;EACA,kBAAA;AArBJ;AAuBI;EACE,yBA5Gc;EA6Gd,mBAAA;EACA,iBAAA;AArBN;AAwBI;EACE,mBAAA;EACA,gBAAA;EACA,YAAA;EACA,mBAAA;AAtBN;AAyBI;EACE,gBAAA;EACA,iBAAA;EACA,kBAAA;AAvBN;AA6BE;EAME,iBAAA;AAhCJ;AA2BI;EACE,oBAAA;EACA,gBAAA;AAzBN;AAgCE;EACE,aAAA;AA9BJ;AAgCI;EACE,SAAA;EACA,iBAAA;EACA,sBAAA;EACA,gBAAA;EACA,mBAAA;EACA,kBAAA;AA9BN;AAgCM;EACE,mBAAA;EACA,kBAAA;EACA,YAAA;AA9BR;AAkCI;EACE,gBAAA;EACA,gBAAA;AAhCN;AAqCE;EACE,eAAA;AAnCJ;AAqCI;EACE,SAAA;EACA,iBAAA;EACA,gBAAA;EACA,kBAAA;AAnCN;AAqCM;EACE,mBAAA;EACA,kBAAA;EACA,YAAA;AAnCR;AAsCM;EACE,kBAAA;EACA,iBAAA;AApCR;AA0CE;EACE,iBAAA;EACA,YAAA;AAxCJ;AA0CI;EACE,mBA/LS;EAgMT,YAAA;AAxCN;AA2CI;EACE,mBAnMW;EAoMX,YAAA;AAzCN;AA4CI;EACE,mBAvMW;EAwMX,YAAA;AA1CN;AA4CM;EACE,kBAAA;AA1CR;AA8CI;EACE,kBAAA;EACA,cAAA;EACA,sBAAA;EACA,uBAAA;EACA,sBAAA;EACA,iBAAA;EACA,gBAAA;AA5CN;AA8CM;EACE,gBAAA;EACA,SAAA;AA5CR;AA+CM;EACE,iBAAA;AA7CR;AAgDM;EACE,SAAA;EACA,iBAAA;EACA,kBAAA;AA9CR;AAiDM;EACE,2BAAA;AA/CR;AAiDQ;EACE,aAAA;AA/CV;AAqDE;EACE,cAAA;AAnDJ","sourcesContent":["$trello-blue: #026AA7;\n$trello-card-title: #81d0fd;\n$trello-error: #c41425;\n$trello-warning: #ff80df;\n$trello-members: #f0f0f0;\n\ndiv.trello-sprinter {\n  margin: 0;\n\n  h2 {\n    text-align: center;\n    padding: 0.25em 0;\n    background: $trello-blue;\n    color: white;\n    font-size: 1em;\n    margin: 0;\n  }\n\n  p.trello-status {\n    text-align: center;\n    padding: 0.25em 0;\n    background: $trello-blue;\n    color: white;\n  }\n\n  p.trello-msg {\n    text-align: center;\n    font-style: italic;\n    font-size: 0.9em;\n    padding: 0.25em 0;\n    background: $trello-blue;\n    color: white;\n  }\n\n  p.center {\n    text-align: center;\n  }\n\n  div.trello-view {\n    background: white;\n    color: black;\n\n    h3 {\n      border-top: 2px solid black;\n      margin: 0;\n      padding: 0.25em 0 0.25em 20px;\n\n      span.date {\n        font-weight: normal;\n        font-style: normal;\n        font-size: 0.7em;\n        float: right;\n        padding-top: 0.25em;\n      }\n    }\n\n    p.trello-completed-header {\n      text-align: center;\n      font-weight: bold;\n      background: black;\n      color: deepskyblue;\n    }\n  }\n\n  .trello-plus {\n    background-image: url('img/plus.png');\n  }\n\n  .trello-minus {\n    background-image: url('img/minus.png');\n  }\n\n  .trello-plus, .trello-minus {\n    background-repeat: no-repeat;\n    background-position: left center;\n    background-size: 16px 16px;\n    cursor: pointer;\n  }\n\n  div.trello-expand {\n    position: relative;\n    display: none;\n    overflow: auto;\n    background: #f0f0f0;\n    padding: 0.25em;\n    margin-bottom: 6pt;\n    border: 1pt solid gray;\n    word-wrap: normal;\n  }\n\n  // Shadows\n  div.trello-expand, .trello-errors {\n    -moz-box-shadow: 6pt 6px 10pt #888;\n    -webkit-box-shadow: 6pt 6px 10pt #888;\n    box-shadow: 6pt 6px 10pt #888;\n  }\n\n  p.trello-count {\n    margin: 0 0 1em 0;\n    text-align: center;\n    font-size: 0.85em;\n  }\n\n\n  div.trello-card {\n    padding-left: 2em;\n    padding-right: 2em;\n\n    h4 {\n      background-color: $trello-card-title;\n      margin: 0.5em 0 0 0;\n      padding: 0 0.25em;\n    }\n\n    h4 span.trello-date {\n      font-weight: normal;\n      font-size: 0.9em;\n      float: right;\n      padding-top: 0.25em;\n    }\n\n    .trello-card-members {\n      margin: 0 0.25em;\n      font-size: 0.85em;\n      font-style: italic;\n    }\n  }\n\n\n\n  div.trello-description {\n    p {\n      margin: 0 0 0.25em 0;\n      font-size: 0.9em;\n    }\n\n    margin: 0.5em 1em;\n  }\n\n\n  div.trello-comments {\n    margin: 0 2em;\n\n    h5 {\n      margin: 0;\n      padding: 0 0.25em;\n      background-color: #ccc;\n      font-size: 0.8em;\n      font-weight: normal;\n      font-style: italic;\n\n      span.trello-date {\n        font-weight: normal;\n        font-style: normal;\n        float: right;\n      }\n    }\n\n    p {\n      margin: 0 0.25em;\n      font-size: 0.9em;\n    }\n  }\n\n\n  div.trello-updates {\n    margin: 1em 2em;\n\n    p {\n      margin: 0;\n      padding: 0 0.25em;\n      font-size: 0.8em;\n      font-style: italic;\n\n      span.trello-date {\n        font-weight: normal;\n        font-style: normal;\n        float: right;\n      }\n\n      span.list {\n        font-style: normal;\n        font-weight: bold;\n      }\n\n    }\n  }\n\n  div.trello-sprints {\n    background: white;\n    color: black;\n\n    div.trello-errors {\n      background: $trello-error;\n      color: white;\n    }\n\n    div.trello-warnings {\n      background: $trello-warning;\n      color: black;\n    }\n\n    div.trello-members {\n      background: $trello-members;\n      color: black;\n\n      div.trello-member {\n        margin-bottom: 1em;\n      }\n    }\n\n    div.trello-errors, div.trello-warnings, div.trello-members {\n      position: relative;\n      overflow: auto;\n      padding: 0 1em 1em 1em;\n      margin: 1em 3em 6pt 3em;\n      border: 1pt solid gray;\n      word-wrap: normal;\n      font-size: 0.9em;\n\n      p {\n        font-size: 1.1em;\n        margin: 0;\n      }\n\n      span.trello-code {\n        font-weight: bold;\n      }\n\n      h3, h4 {\n        margin: 0;\n        padding: 0.25em 0;\n        text-align: center;\n      }\n\n      div.trello-info {\n        border-top: 1px solid black;\n\n        p {\n          margin: 1em 0;\n        }\n      }\n    }\n  }\n\n  div.trello-sprint-table {\n    overflow: auto;\n  }\n\n\n}\n"],"sourceRoot":""}]);
 // Exports
@@ -2067,10 +2067,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, "div.trello-sprinter {\n  margin: 0;\n}
 
 /***/ }),
 
-/***/ "../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/runtime/api.js":
-/*!****************************************************************************************************************************************************************!*\
-  !*** ../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/runtime/api.js ***!
-  \****************************************************************************************************************************************************************/
+/***/ "../../node_modules/css-loader/dist/runtime/api.js":
+/*!*********************************************************!*\
+  !*** ../../node_modules/css-loader/dist/runtime/api.js ***!
+  \*********************************************************/
 /***/ ((module) => {
 
 
@@ -2178,10 +2178,10 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 
-/***/ "../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/runtime/getUrl.js":
-/*!*******************************************************************************************************************************************************************!*\
-  !*** ../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \*******************************************************************************************************************************************************************/
+/***/ "../../node_modules/css-loader/dist/runtime/getUrl.js":
+/*!************************************************************!*\
+  !*** ../../node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \************************************************************/
 /***/ ((module) => {
 
 
@@ -2216,10 +2216,10 @@ module.exports = function (url, options) {
 
 /***/ }),
 
-/***/ "../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/runtime/sourceMaps.js":
-/*!***********************************************************************************************************************************************************************!*\
-  !*** ../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/runtime/sourceMaps.js ***!
-  \***********************************************************************************************************************************************************************/
+/***/ "../../node_modules/css-loader/dist/runtime/sourceMaps.js":
+/*!****************************************************************!*\
+  !*** ../../node_modules/css-loader/dist/runtime/sourceMaps.js ***!
+  \****************************************************************/
 /***/ ((module) => {
 
 
@@ -2257,19 +2257,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/styleDomAPI.js */ "../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/styleDomAPI.js");
-/* harmony import */ var _yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/insertBySelector.js */ "../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/insertBySelector.js");
-/* harmony import */ var _yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
-/* harmony import */ var _yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/insertStyleElement.js */ "../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/insertStyleElement.js");
-/* harmony import */ var _yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/styleTagTransform.js */ "../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/styleTagTransform.js");
-/* harmony import */ var _yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/cjs.js!../../.yarn/__virtual__/resolve-url-loader-virtual-12f3d4a39a/0/cache/resolve-url-loader-npm-4.0.0-2a9c18d86b-8e5bcf9786.zip/node_modules/resolve-url-loader/index.js!../../.yarn/__virtual__/sass-loader-virtual-86a7f7e3a6/0/cache/sass-loader-npm-12.4.0-3d3847fd35-0f7ca3633e.zip/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss */ "../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/cjs.js!../../.yarn/__virtual__/resolve-url-loader-virtual-12f3d4a39a/0/cache/resolve-url-loader-npm-4.0.0-2a9c18d86b-8e5bcf9786.zip/node_modules/resolve-url-loader/index.js!../../.yarn/__virtual__/sass-loader-virtual-86a7f7e3a6/0/cache/sass-loader-npm-12.4.0-3d3847fd35-0f7ca3633e.zip/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "../../node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "../../node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "../../node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "../../node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss */ "../../node_modules/css-loader/dist/cjs.js!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss");
 
       
       
@@ -2283,19 +2283,19 @@ __webpack_require__.r(__webpack_exports__);
 
 var options = {};
 
-options.styleTagTransform = (_yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
-options.setAttributes = (_yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
 
-      options.insert = _yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
     
-options.domAPI = (_yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
-options.insertStyleElement = (_yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _yarn_virtual_style_loader_virtual_0a876ab1d6_0_cache_style_loader_npm_3_3_1_4bbb6ec77f_470feef680_zip_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 if (true) {
-  if (!_yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals || module.hot.invalidate) {
+  if (!_node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals || module.hot.invalidate) {
     var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
   if (!a && b || a && !b) {
     return false;
@@ -2327,22 +2327,22 @@ if (true) {
 
   return true;
 };
-    var isNamedExport = !_yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals;
-    var oldLocals = isNamedExport ? _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__ : _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals;
+    var isNamedExport = !_node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals;
+    var oldLocals = isNamedExport ? _node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__ : _node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals;
 
     module.hot.accept(
-      /*! !!../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/cjs.js!../../.yarn/__virtual__/resolve-url-loader-virtual-12f3d4a39a/0/cache/resolve-url-loader-npm-4.0.0-2a9c18d86b-8e5bcf9786.zip/node_modules/resolve-url-loader/index.js!../../.yarn/__virtual__/sass-loader-virtual-86a7f7e3a6/0/cache/sass-loader-npm-12.4.0-3d3847fd35-0f7ca3633e.zip/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss */ "../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/cjs.js!../../.yarn/__virtual__/resolve-url-loader-virtual-12f3d4a39a/0/cache/resolve-url-loader-npm-4.0.0-2a9c18d86b-8e5bcf9786.zip/node_modules/resolve-url-loader/index.js!../../.yarn/__virtual__/sass-loader-virtual-86a7f7e3a6/0/cache/sass-loader-npm-12.4.0-3d3847fd35-0f7ca3633e.zip/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss",
-      __WEBPACK_OUTDATED_DEPENDENCIES__ => { /* harmony import */ _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/cjs.js!../../.yarn/__virtual__/resolve-url-loader-virtual-12f3d4a39a/0/cache/resolve-url-loader-npm-4.0.0-2a9c18d86b-8e5bcf9786.zip/node_modules/resolve-url-loader/index.js!../../.yarn/__virtual__/sass-loader-virtual-86a7f7e3a6/0/cache/sass-loader-npm-12.4.0-3d3847fd35-0f7ca3633e.zip/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss */ "../../.yarn/__virtual__/css-loader-virtual-78f5623507/0/cache/css-loader-npm-6.5.1-a34b2a752f-5a3bedecb4.zip/node_modules/css-loader/dist/cjs.js!../../.yarn/__virtual__/resolve-url-loader-virtual-12f3d4a39a/0/cache/resolve-url-loader-npm-4.0.0-2a9c18d86b-8e5bcf9786.zip/node_modules/resolve-url-loader/index.js!../../.yarn/__virtual__/sass-loader-virtual-86a7f7e3a6/0/cache/sass-loader-npm-12.4.0-3d3847fd35-0f7ca3633e.zip/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss");
+      /*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss */ "../../node_modules/css-loader/dist/cjs.js!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss",
+      __WEBPACK_OUTDATED_DEPENDENCIES__ => { /* harmony import */ _node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss */ "../../node_modules/css-loader/dist/cjs.js!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./trello.scss");
 (function () {
-        if (!isEqualLocals(oldLocals, isNamedExport ? _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__ : _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals, isNamedExport)) {
+        if (!isEqualLocals(oldLocals, isNamedExport ? _node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__ : _node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals, isNamedExport)) {
                 module.hot.invalidate();
 
                 return;
               }
 
-              oldLocals = isNamedExport ? _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__ : _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals;
+              oldLocals = isNamedExport ? _node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__ : _node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals;
 
-              update(_yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"]);
+              update(_node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"]);
       })(__WEBPACK_OUTDATED_DEPENDENCIES__); }
     )
   }
@@ -2354,15 +2354,15 @@ if (true) {
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _yarn_virtual_css_loader_virtual_78f5623507_0_cache_css_loader_npm_6_5_1_a34b2a752f_5a3bedecb4_zip_node_modules_css_loader_dist_cjs_js_yarn_virtual_resolve_url_loader_virtual_12f3d4a39a_0_cache_resolve_url_loader_npm_4_0_0_2a9c18d86b_8e5bcf9786_zip_node_modules_resolve_url_loader_index_js_yarn_virtual_sass_loader_virtual_86a7f7e3a6_0_cache_sass_loader_npm_12_4_0_3d3847fd35_0f7ca3633e_zip_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_resolve_url_loader_index_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_3_trello_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
 
-/***/ "../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** ../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \*******************************************************************************************************************************************************************************************/
+/***/ "../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!********************************************************************************!*\
+  !*** ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \********************************************************************************/
 /***/ ((module) => {
 
 
@@ -2472,10 +2472,10 @@ module.exports = function (list, options) {
 
 /***/ }),
 
-/***/ "../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/insertBySelector.js":
-/*!***********************************************************************************************************************************************************************************!*\
-  !*** ../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/insertBySelector.js ***!
-  \***********************************************************************************************************************************************************************************/
+/***/ "../../node_modules/style-loader/dist/runtime/insertBySelector.js":
+/*!************************************************************************!*\
+  !*** ../../node_modules/style-loader/dist/runtime/insertBySelector.js ***!
+  \************************************************************************/
 /***/ ((module) => {
 
 
@@ -2520,10 +2520,10 @@ module.exports = insertBySelector;
 
 /***/ }),
 
-/***/ "../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/insertStyleElement.js":
-/*!*************************************************************************************************************************************************************************************!*\
-  !*** ../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
-  \*************************************************************************************************************************************************************************************/
+/***/ "../../node_modules/style-loader/dist/runtime/insertStyleElement.js":
+/*!**************************************************************************!*\
+  !*** ../../node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
+  \**************************************************************************/
 /***/ ((module) => {
 
 
@@ -2540,10 +2540,10 @@ module.exports = insertStyleElement;
 
 /***/ }),
 
-/***/ "../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** ../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
-  \*************************************************************************************************************************************************************************************************/
+/***/ "../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js":
+/*!**************************************************************************************!*\
+  !*** ../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
+  \**************************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
@@ -2561,10 +2561,10 @@ module.exports = setAttributesWithoutAttributes;
 
 /***/ }),
 
-/***/ "../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/styleDomAPI.js":
-/*!******************************************************************************************************************************************************************************!*\
-  !*** ../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
-  \******************************************************************************************************************************************************************************/
+/***/ "../../node_modules/style-loader/dist/runtime/styleDomAPI.js":
+/*!*******************************************************************!*\
+  !*** ../../node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
+  \*******************************************************************/
 /***/ ((module) => {
 
 
@@ -2640,10 +2640,10 @@ module.exports = domAPI;
 
 /***/ }),
 
-/***/ "../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/styleTagTransform.js":
-/*!************************************************************************************************************************************************************************************!*\
-  !*** ../../.yarn/__virtual__/style-loader-virtual-0a876ab1d6/0/cache/style-loader-npm-3.3.1-4bbb6ec77f-470feef680.zip/node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
-  \************************************************************************************************************************************************************************************/
+/***/ "../../node_modules/style-loader/dist/runtime/styleTagTransform.js":
+/*!*************************************************************************!*\
+  !*** ../../node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
+  \*************************************************************************/
 /***/ ((module) => {
 
 
@@ -2665,10 +2665,10 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "../../.yarn/cache/trello-connect-npm-2.0.6-7cf0ff6bf1-a032890684.zip/node_modules/trello-connect/index.js":
-/*!*****************************************************************************************************************!*\
-  !*** ../../.yarn/cache/trello-connect-npm-2.0.6-7cf0ff6bf1-a032890684.zip/node_modules/trello-connect/index.js ***!
-  \*****************************************************************************************************************/
+/***/ "../../node_modules/trello-connect/index.js":
+/*!**************************************************!*\
+  !*** ../../node_modules/trello-connect/index.js ***!
+  \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -2946,7 +2946,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("d5ff2f85f6c85d499d44")
+/******/ 		__webpack_require__.h = () => ("b887d525c5a71eef2e94")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
@@ -3025,7 +3025,8 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf
 /******/ 		var currentStatus = "idle";
 /******/ 		
 /******/ 		// while downloading
-/******/ 		var blockingPromises;
+/******/ 		var blockingPromises = 0;
+/******/ 		var blockingPromisesWaiting = [];
 /******/ 		
 /******/ 		// The update info
 /******/ 		var currentUpdateApplyHandlers;
@@ -3215,17 +3216,28 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf
 /******/ 			return Promise.all(results);
 /******/ 		}
 /******/ 		
+/******/ 		function unblock() {
+/******/ 			if (--blockingPromises === 0) {
+/******/ 				setStatus("ready").then(function () {
+/******/ 					if (blockingPromises === 0) {
+/******/ 						var list = blockingPromisesWaiting;
+/******/ 						blockingPromisesWaiting = [];
+/******/ 						for (var i = 0; i < list.length; i++) {
+/******/ 							list[i]();
+/******/ 						}
+/******/ 					}
+/******/ 				});
+/******/ 			}
+/******/ 		}
+/******/ 		
 /******/ 		function trackBlockingPromise(promise) {
 /******/ 			switch (currentStatus) {
 /******/ 				case "ready":
 /******/ 					setStatus("prepare");
-/******/ 					blockingPromises.push(promise);
-/******/ 					waitForBlockingPromises(function () {
-/******/ 						return setStatus("ready");
-/******/ 					});
-/******/ 					return promise;
+/******/ 				/* fallthrough */
 /******/ 				case "prepare":
-/******/ 					blockingPromises.push(promise);
+/******/ 					blockingPromises++;
+/******/ 					promise.then(unblock, unblock);
 /******/ 					return promise;
 /******/ 				default:
 /******/ 					return promise;
@@ -3233,11 +3245,11 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf
 /******/ 		}
 /******/ 		
 /******/ 		function waitForBlockingPromises(fn) {
-/******/ 			if (blockingPromises.length === 0) return fn();
-/******/ 			var blocker = blockingPromises;
-/******/ 			blockingPromises = [];
-/******/ 			return Promise.all(blocker).then(function () {
-/******/ 				return waitForBlockingPromises(fn);
+/******/ 			if (blockingPromises === 0) return fn();
+/******/ 			return new Promise(function (resolve) {
+/******/ 				blockingPromisesWaiting.push(function () {
+/******/ 					resolve(fn());
+/******/ 				});
 /******/ 			});
 /******/ 		}
 /******/ 		
@@ -3258,7 +3270,6 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf
 /******/ 		
 /******/ 					return setStatus("prepare").then(function () {
 /******/ 						var updatedModules = [];
-/******/ 						blockingPromises = [];
 /******/ 						currentUpdateApplyHandlers = [];
 /******/ 		
 /******/ 						return Promise.all(
@@ -3295,7 +3306,11 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf
 /******/ 		function hotApply(options) {
 /******/ 			if (currentStatus !== "ready") {
 /******/ 				return Promise.resolve().then(function () {
-/******/ 					throw new Error("apply() is only allowed in ready status");
+/******/ 					throw new Error(
+/******/ 						"apply() is only allowed in ready status (state: " +
+/******/ 							currentStatus +
+/******/ 							")"
+/******/ 					);
 /******/ 				});
 /******/ 			}
 /******/ 			return internalApply(options);
@@ -3414,7 +3429,8 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf
 /******/ 		
 /******/ 		var currentUpdatedModulesList;
 /******/ 		var waitingUpdateResolves = {};
-/******/ 		function loadUpdateChunk(chunkId) {
+/******/ 		function loadUpdateChunk(chunkId, updatedModulesList) {
+/******/ 			currentUpdatedModulesList = updatedModulesList;
 /******/ 			return new Promise((resolve, reject) => {
 /******/ 				waitingUpdateResolves[chunkId] = resolve;
 /******/ 				// start update chunk loading
@@ -3877,15 +3893,16 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf
 /******/ 				) {
 /******/ 					promises.push(loadUpdateChunk(chunkId, updatedModulesList));
 /******/ 					currentUpdateChunks[chunkId] = true;
+/******/ 				} else {
+/******/ 					currentUpdateChunks[chunkId] = false;
 /******/ 				}
 /******/ 			});
 /******/ 			if (__webpack_require__.f) {
 /******/ 				__webpack_require__.f.jsonpHmr = function (chunkId, promises) {
 /******/ 					if (
 /******/ 						currentUpdateChunks &&
-/******/ 						!__webpack_require__.o(currentUpdateChunks, chunkId) &&
-/******/ 						__webpack_require__.o(installedChunks, chunkId) &&
-/******/ 						installedChunks[chunkId] !== undefined
+/******/ 						__webpack_require__.o(currentUpdateChunks, chunkId) &&
+/******/ 						!currentUpdateChunks[chunkId]
 /******/ 					) {
 /******/ 						promises.push(loadUpdateChunk(chunkId));
 /******/ 						currentUpdateChunks[chunkId] = true;
@@ -3906,6 +3923,11 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf
 /******/ 		// no on chunks loaded
 /******/ 		
 /******/ 		// no jsonp function
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/nonce */
+/******/ 	(() => {
+/******/ 		__webpack_require__.nc = undefined;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
