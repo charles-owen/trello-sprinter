@@ -43,18 +43,18 @@ export const MainView = function(element, trello, options) {
 		for(let view in options.views) {
 			switch(view) {
 				case 'board':
-					let v = new BoardView(div, board);
-					v.present();
+					let boardView = new BoardView(div, board);
+					boardView.present();
 					break;
 
 				case 'sprint':
-					v = new SprintView(div, board, options.views.sprint);
-					v.present();
+					let sprintView = new SprintView(div, board, options.views.sprint);
+					sprintView.present();
 					break;
 
 				case 'sprintTable':
-					v = new SprintTableView(div, board, options.views.sprintTable);
-					v.present();
+					let sprintTableView = new SprintTableView(div, board, options.views.sprintTable);
+					sprintTableView.present();
 					break;
 			}
 		}
